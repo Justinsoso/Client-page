@@ -8,6 +8,23 @@ body {
   overflow-x: hidden;
 }
 
+.btn.btn-secondary{
+color: #fff !important;
+
+background-color: #000000 !important;
+
+border-color: #000000 !important;
+
+margin-bottom: 50px;
+
+padding:45px 48px;
+
+border-radius: 0;
+
+}
+
+@import "@material/fab/mdc-fab";
+
 #wrapper {
   padding-left: 250;
   -webkit-transition: all 0.5s ease;
