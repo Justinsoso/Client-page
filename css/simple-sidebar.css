@@ -6,6 +6,11 @@
 
 body {
   overflow-x: hidden;
+  background-color: #90EE90;
+}
+
+#nav-bar {
+  background-color: #fff;
 }
 
 .btn.btn-secondary{
@@ -15,15 +20,15 @@ background-color: #000000 !important;
 
 border-color: #000000 !important;
 
-margin-bottom: 50px;
+margin: 14px;
 
-padding:45px 48px;
+padding:27px 30px;
 
 border-radius: 0;
 
-}
+background-color: #fff;
 
-@import "@material/fab/mdc-fab";
+}
 
 #wrapper {
   padding-left: 250;
@@ -59,8 +64,9 @@ border-radius: 0;
 #container-fluid {
   width: 100%;
   position: absolute;
-  padding: 15px;
-  margin-top: 50px;
+  padding: 35px;
+  margin-top: 80px;
+  background-color: darkolivegreen;
 }
 
 #wrapper.toggled #container-fluid {
@@ -82,7 +88,7 @@ border-radius: 0;
 
 .sidebar-nav li {
   text-indent: 60px;
-  line-height: 80px;
+  line-height: 120px;
 }
 
 .sidebar-nav li a {
@@ -138,3 +144,5 @@ border-radius: 0;
     margin-right: 0;
   }
 }
+
+@import "@material/fab/mdc-fab";
